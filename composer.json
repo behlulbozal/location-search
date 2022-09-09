@@ -13,7 +13,7 @@
             "Location\\": "src/"
         },
         "files": [
-            "src/Location/Location.php"
+            "src/Location.php"
         ]
     },
     "extra": {
