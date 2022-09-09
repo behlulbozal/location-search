@@ -10,7 +10,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Location\\": "src/"
+            "behlulbozal\\LocationSearch\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "behlulbozal\\LocationSearch\\LocationSearchServiceProvider"
+            ]
         }
     }
 }
