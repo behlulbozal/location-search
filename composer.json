@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LocationSearch\\LocationServiceProvider"
+                "LocationServiceProvider"
             ]
         }
     },
