@@ -1,12 +1,12 @@
 <?php
 
-
+namespace Providers;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class LocationServiceProvider
+ * Class Service
  */
-class LocationServiceProvider extends ServiceProvider
+class Service extends ServiceProvider
 {
     /**
      * Register the service provider.

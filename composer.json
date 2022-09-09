@@ -10,16 +10,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Location\\": "src/"
-        },
-        "files": [
-            "src/Location.php"
-        ]
+            "BehlulBozal\\Location\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Location\\LocationServiceProvider"
+                "BehlulBozal\\Location\\Providers\\Service"
             ]
         }
     }
