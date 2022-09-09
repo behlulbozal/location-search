@@ -14,13 +14,13 @@
         },
         "files": [
             "src/Location.php",
-            "src/LocationServiceProvider.php"
+            "src/LocationSearchServiceProvider.php"
         ]
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Location\\LocationServiceProvider"
+                "Location\\LocationSearchServiceProvider"
             ]
         }
     }
