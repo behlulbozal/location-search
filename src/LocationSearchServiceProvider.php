@@ -4,9 +4,9 @@
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class LocationServiceProvider
+ * Class LocationSearchServiceProvider
  */
-class LocationServiceProvider extends ServiceProvider
+class LocationSearchServiceProvider extends ServiceProvider
 {
     /**
      * Register the service provider.
