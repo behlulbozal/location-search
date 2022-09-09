@@ -15,6 +15,6 @@ class LocationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('locationSearch', Location::class);
+        $this->app->singleton('location', Location::class);
     }
 }
