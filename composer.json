@@ -11,11 +11,7 @@
     "autoload": {
         "psr-4": {
             "Location\\": "src/"
-        },
-        "files": [
-            "src/Providers/Service.php",
-            "src/Providers/LocationServiceProvider.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
