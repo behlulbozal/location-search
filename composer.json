@@ -1,0 +1,26 @@
+{
+    "name": "behlulbozal/location-search",
+    "description": "It's a package location search for Laravel",
+    "autoload": {
+        "psr-4": {
+            "Behlulbozal\\LocationSearch\\": "src/"
+        },
+        "files": [
+            "src/Location.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Behlül Bozal",
+            "email": "behlulbozal@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LocationSearch\\LocationServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
