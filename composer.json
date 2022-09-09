@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "LocationSearch\\": "src/Location/"
+            "Location\\": "src/"
         },
         "files": [
             "src/Location/Location.php"
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LocationSearch\\LocationServiceProvider"
+                "Location\\LocationServiceProvider"
             ]
         }
     }
