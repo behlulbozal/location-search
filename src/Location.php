@@ -16,11 +16,6 @@ class Location
                          ) AS distance", [$latitude, $longitude, $latitude])
             ->having("distance", "<", $radius_meter)
             ->orderBy("distance");
-
-        foreach ($response as $key => $res) {
-            $res['google_maps_url'] = "https://www.google.com/maps/dir//" . $res->latitude . "," . $res->longitude . "/@" . $res->latitude . "," . $res->longitude . ",19z";
-        }
-
         return $response;
 
     }
@@ -45,5 +40,10 @@ class Location
             $distance = intval(($meter / 1000)) . ' km';
         }
         return $distance;
+    }
+
+    public static function GoogleLink($latitude, $longitude)
+    {
+        return "https://www.google.com/maps/dir//" . $latitude . "," . $longitude . "/@" . $latitude . "," . $longitude . ",19z";
     }
 }
