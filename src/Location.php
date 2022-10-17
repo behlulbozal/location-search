@@ -4,7 +4,7 @@ namespace behlulbozal\LocationSearch;
 class Location
 {
 
-    public static function findInCircle($latitude, $longitude, $radius_meter, $model)
+    public static function FindInCircle($latitude, $longitude, $radius_meter, $model)
     {
 
         $response = $model::selectRaw("* ,
@@ -17,10 +17,9 @@ class Location
             ->having("distance", "<", $radius_meter)
             ->orderBy("distance");
         return $response;
-
     }
 
-    public static function getDistance($latitude1, $longitude1, $latitude2, $longitude2)
+    public static function GetDistance($latitude1, $longitude1, $latitude2, $longitude2)
     {
         $earthRadius = 6371000;
         $latFrom = deg2rad($latitude1);
