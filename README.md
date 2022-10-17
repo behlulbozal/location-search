@@ -11,11 +11,6 @@
 
 ![](https://img.shields.io/badge/Location%20Search-%3C3-yellow) ![](https://img.shields.io/github/issues/behlulbozal/location-search) ![](https://img.shields.io/github/tag/behlulbozal/location-search) ![](https://img.shields.io/github/release/behlulbozal/location-search) 
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
 
 # Getting Started
 
