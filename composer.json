@@ -2,6 +2,7 @@
     "name": "behlulbozal/location-search",
     "description": "It's a package location search for Laravel",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Behlül Bozal",
